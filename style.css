@@ -18,18 +18,19 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 .contenedor{
-    height: 100vh;
-    width: 70vw;
+    width: 90vw;
     max-width: 1110px;
-    margin: 0 auto;
+    margin: 2rem auto 2rem auto;
     display: grid;
     column-gap: 1.95rem;
     row-gap: 1.5rem;
-    grid-template-areas: "first-card first-card first-card first-card second-card third-card"
-                         "fourth-card fifth-card fifth-card  fifth-card  fifth-card third-card";
+    grid-template-areas: "first-card first-card first-card first-card first-card first-card"
+    "second-card second-card second-card second-card second-card second-card"
+    "fourth-card fourth-card fourth-card fourth-card fourth-card fourth-card"
+    "fifth-card fifth-card fifth-card fifth-card fifth-card fifth-card"
+    "third-card third-card third-card third-card third-card third-card";
     align-content: center;
 }
 .contenedor .card{
@@ -39,7 +40,7 @@ body{
     padding: 25px 32px 32px 32px;
 }
 .contenedor .first-card{
-    background: var(--mv) url(images/bg-pattern-quotation.svg) no-repeat right 14% top;
+    background: var(--mv) url(images/bg-pattern-quotation.svg) no-repeat right 15% top;
     grid-area: first-card; 
     box-shadow: 10px 10px 100px var(--s);
 }
@@ -51,7 +52,6 @@ body{
 .contenedor .third-card{
     background-color: var(--w);
     grid-area: third-card;
-    padding: 25px 20px;
     box-shadow: 40px 20px 100px var(--s);
 }
 .contenedor .fourth-card{
@@ -152,25 +152,22 @@ body{
     letter-spacing: 0.01rem;
     line-height: 1.1rem;
 }
-@media screen and (max-width: 1250px) {
+@media screen and (min-width: 900px) {
     .contenedor{
-        height: auto;
-        margin: 2rem auto 2rem auto;
+        width: 70vw;
         grid-template-areas: "first-card first-card first-card fifth-card fifth-card fifth-card"
                              "third-card third-card third-card third-card third-card third-card"
                              "fourth-card fourth-card fourth-card second-card second-card second-card";
     }
-    .contenedor .third-card{
-        padding: 25px 32px 32px 32px;
-    }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1250px) {
     .contenedor{
-        width: 90vw;
-        grid-template-areas: "first-card first-card first-card first-card first-card first-card"
-                             "second-card second-card second-card second-card second-card second-card"
-                             "fourth-card fourth-card fourth-card fourth-card fourth-card fourth-card"
-                             "fifth-card fifth-card fifth-card fifth-card fifth-card fifth-card"
-                             "third-card third-card third-card third-card third-card third-card";
+        height: 100vh;
+        margin: 0 auto;
+        grid-template-areas: "first-card first-card first-card first-card second-card third-card"
+                             "fourth-card fifth-card fifth-card  fifth-card  fifth-card third-card";
+    }
+    .contenedor .third-card{
+        padding: 25px 20px;
     }
 }
