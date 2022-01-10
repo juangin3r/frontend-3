@@ -31,7 +31,6 @@ body{
     "fourth-card fourth-card fourth-card fourth-card fourth-card fourth-card"
     "fifth-card fifth-card fifth-card fifth-card fifth-card fifth-card"
     "third-card third-card third-card third-card third-card third-card";
-    align-content: center;
 }
 .contenedor .card{
     display: flex;
@@ -166,6 +165,7 @@ body{
         margin: 0 auto;
         grid-template-areas: "first-card first-card first-card first-card second-card third-card"
                              "fourth-card fifth-card fifth-card  fifth-card  fifth-card third-card";
+        align-content: center;
     }
     .contenedor .third-card{
         padding: 25px 20px;
