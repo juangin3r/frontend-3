@@ -154,7 +154,8 @@ body{
 }
 @media screen and (max-width: 1250px) {
     .contenedor{
-
+        height: auto;
+        margin: 2rem auto 2rem auto;
         grid-template-areas: "first-card first-card first-card fifth-card fifth-card fifth-card"
                              "third-card third-card third-card third-card third-card third-card"
                              "fourth-card fourth-card fourth-card second-card second-card second-card";
