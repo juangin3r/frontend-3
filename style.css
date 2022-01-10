@@ -39,7 +39,7 @@ body{
     padding: 25px 32px 32px 32px;
 }
 .contenedor .first-card{
-    background: var(--mv) url(images/bg-pattern-quotation.svg) no-repeat right 11% top;
+    background: var(--mv) url(images/bg-pattern-quotation.svg) no-repeat right 14% top;
     grid-area: first-card; 
     box-shadow: 10px 10px 100px var(--s);
 }
