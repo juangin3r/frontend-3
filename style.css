@@ -42,6 +42,7 @@ body{
     background: var(--mv) ;
     grid-area: first-card; 
     box-shadow: 10px 10px 100px var(--s);
+    url(images/bg-pattern-quotation.svg) no-repeat right 11% top;
 }
 .contenedor .second-card{
     background-color: var(--vdgb);
