@@ -19,7 +19,7 @@ body{
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
-.contenedor{
+.container{
     width: 90vw;
     max-width: 1110px;
     margin: 2rem auto 2rem auto;
@@ -32,61 +32,61 @@ body{
     "fifth-card fifth-card fifth-card fifth-card fifth-card fifth-card"
     "third-card third-card third-card third-card third-card third-card";
 }
-.contenedor .card{
+.container .card{
     display: flex;
     flex-direction: column;
     border-radius: 0.6rem;
     padding: 25px 32px 32px 32px;
 }
-.contenedor .first-card{
+.container .first-card{
     background: var(--mv) url(images/bg-pattern-quotation.svg) no-repeat right 15% top;
     grid-area: first-card; 
     box-shadow: 10px 10px 100px var(--s);
 }
-.contenedor .second-card{
+.container .second-card{
     background-color: var(--vdgb);
     grid-area: second-card;
     box-shadow: 10px 10px 100px var(--s);
 }
-.contenedor .third-card{
+.container .third-card{
     background-color: var(--w);
     grid-area: third-card;
     box-shadow: 40px 20px 100px var(--s);
 }
-.contenedor .fourth-card{
+.container .fourth-card{
     background-color: var(--w);
     grid-area: fourth-card;
     box-shadow: 20px 20px 40px var(--s);
 }
-.contenedor .fifth-card{
+.container .fifth-card{
     background-color: var(--vdbb);
     grid-area: fifth-card;
     box-shadow: 10px 10px 100px var(--s);
 }
-.contenedor .img{
+.container .img{
     width: 1.6rem;
     border-radius: 2rem;
 }
-.contenedor .daniel-img{
+.container .daniel-img{
     border: 2px solid var(--lg);
 }
-.contenedor .jonathan-img{
+.container .jonathan-img{
     border: 2px solid var(--lgb);
 }
-.contenedor .kira-img{
+.container .kira-img{
     border: 2px solid var(--w);
 }
-.contenedor .jeanette-img{
+.container .jeanette-img{
     border: 2px solid var(--w);
 }
-.contenedor .patrick-img{
+.container .patrick-img{
     border: 2px solid var(--mv);
 }
-.contenedor .header{
+.container .header{
     display: flex;
     flex-direction: row;
 }
-.contenedor .first-title-white{
+.container .first-title-white{
     margin-left: 1rem;
     font-size: 0.8rem;
     line-height: 0.2rem;
@@ -95,7 +95,7 @@ body{
     color: var(--w);
     font-weight: 700;
 }
-.contenedor .first-title-dark{
+.container .first-title-dark{
     color: var(--vdbb);
     margin-left: 1rem;
     font-size: 0.8rem;
@@ -104,7 +104,7 @@ body{
     margin-block-end: 1em;
     font-weight: 700;
 }
-.contenedor .second-title-white{
+.container .second-title-white{
     margin-left: 1rem;
     font-size: 0.7rem;
     line-height: 0.2rem;
@@ -112,7 +112,7 @@ body{
     margin-block-end: 0;
     color: var(--wo);
 }
-.contenedor .second-title-dark{
+.container .second-title-dark{
     color: var(--vdbbo);
     margin-left: 1rem;
     font-size: 0.7rem;
@@ -120,7 +120,7 @@ body{
     margin-block-start: 1em;
     margin-block-end: 0;
 }
-.contenedor .first-paragraph-white{
+.container .first-paragraph-white{
     font-size: 1.2rem;
     color: var(--w);
     font-weight: 600;
@@ -128,14 +128,14 @@ body{
     margin-block-end: 0.4em;
     font-weight: 700;
 }
-.contenedor .first-paragraph-dark{
+.container .first-paragraph-dark{
     font-size: 1.2rem;
     color: var(--vdbb);
     margin-block-start: 0.8em;
     margin-block-end: 0.4em;
     font-weight: 700;
 }
-.contenedor .second-paragraph-white{
+.container .second-paragraph-white{
     font-size: 0.8rem;
     color: var(--wom);
     margin-block-start: 0.6em;
@@ -143,7 +143,7 @@ body{
     letter-spacing: 0.01rem;
     line-height: 1.1rem;
 }
-.contenedor .second-paragraph-dark{
+.container .second-paragraph-dark{
     font-size: 0.8rem;
     color: var(--vdbbom);
     margin-block-start: 0.6em;
@@ -152,7 +152,7 @@ body{
     line-height: 1.1rem;
 }
 @media screen and (min-width: 900px) {
-    .contenedor{
+    .container{
         width: 70vw;
         grid-template-areas: "first-card first-card first-card fifth-card fifth-card fifth-card"
                              "third-card third-card third-card third-card third-card third-card"
@@ -160,14 +160,14 @@ body{
     }
 }
 @media screen and (min-width: 1250px) {
-    .contenedor{
+    .container{
         height: 100vh;
         margin: 0 auto;
         grid-template-areas: "first-card first-card first-card first-card second-card third-card"
                              "fourth-card fifth-card fifth-card  fifth-card  fifth-card third-card";
         align-content: center;
     }
-    .contenedor .third-card{
+    .container .third-card{
         padding: 25px 20px;
     }
 }
