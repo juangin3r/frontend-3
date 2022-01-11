@@ -22,7 +22,7 @@ body{
 .container{
     width: 90vw;
     max-width: 1110px;
-    margin: 2rem auto 2rem auto;
+    margin: 4rem auto 4rem auto;
     display: grid;
     column-gap: 1.95rem;
     row-gap: 1.5rem;
@@ -161,8 +161,6 @@ body{
 }
 @media screen and (min-width: 1250px) {
     .container{
-        height: 100vh;
-        margin: 0 auto;
         grid-template-areas: "first-card first-card first-card first-card second-card third-card"
                              "fourth-card fifth-card fifth-card  fifth-card  fifth-card third-card";
         align-content: center;
