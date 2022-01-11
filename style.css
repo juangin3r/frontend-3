@@ -2,6 +2,7 @@
     --mv: hsl(263, 55%, 52%);
     --vdgb: hsl(217, 19%, 35%);
     --vdbb: hsl(219, 29%, 14%);
+    --vdgbo: hsla(217, 19%, 35%, 0.6);
     --w: hsl(0, 0%, 100%);
     --wo: hsla(0, 0%, 100%, 0.5);
     --wom: hsla(0, 0%, 100%, 0.7);
@@ -74,10 +75,10 @@ body{
     border: 2px solid var(--lgb);
 }
 .container .kira-img{
-    border: 2px solid var(--w);
+    border: 2px solid var(--vdgbo);
 }
 .container .jeanette-img{
-    border: 2px solid var(--w);
+    border: 2px solid var(--vdgbo);
 }
 .container .patrick-img{
     border: 2px solid var(--mv);
