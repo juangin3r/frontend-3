@@ -167,7 +167,7 @@ body{
                              "fourth-card fifth-card fifth-card  fifth-card  fifth-card third-card";
         align-content: center;
     }
-    .contenedor .third-card{
+    .container .third-card{
         padding: 25px 20px;
     }
 }
